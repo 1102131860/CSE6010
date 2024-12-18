@@ -3,12 +3,12 @@
 ## Final Project 1
 - This project use an optimization technique called particle swarm optimization (PSO) to find parameter values for a model that describes how populations of a predator species and a prey species evolve in time. PSO is a bio-inspired algorithm that iteratively evolves a set of candidate parameterizations toward lower error.
 - To run the demo:
-    0. Clone the repository and enter the FinalProject1 folder:
+    1. Clone the repository and enter the FinalProject1 folder:
         ```bash
         git clone https://github.com/1102131860/CSE6010.git
         cd ./CSE6010/FinalProject1
         ```
-    1. Compile the program:
+    2. Compile the program:
         - With gcc compiler:
             ```bash
             gcc -fopenmp -lm PSO.c main.c -o pso
@@ -22,7 +22,7 @@
             ```bash
             make
             ```
-    2. Excute the program:
+    3. Excute the program:
         - On Linux:
             ```bash
             ./pso fit_a.txt 4 0 p
